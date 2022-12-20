@@ -1,0 +1,28 @@
+LatT/LonT | 1 (Positional, Accuracy)
+
+LonP/LatP (people) = positional
+
+LonC/LatC
+
+temp = numerical (continuous) | 5*
+
+mon/day = date
+
+days = intervals
+
+city = list 
+
+survivors = numerical/ordinal (continuous) | 2 (Area) (Prioritizing Accuracy, think about range/discriminability) (or brightness?)
+
+direction = categorical (binary) | 3 (Hue, separability)
+
+division = categorical (binary) | 4 (texture, grouping)
+
+
+
+
+representing Division was tricky as size was used for number and hue was used for direction
+
+brightness -> ordinal accuracy
+
+added starting troops for div 1 2 3 together

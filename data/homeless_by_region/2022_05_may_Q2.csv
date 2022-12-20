@@ -1,0 +1,10 @@
+"Region","Total Adults","Male Adults","Female Adults","Adults Aged 18-24","Adults Aged 25-44","Adults Aged 45-64","Adults Aged 65+"+,"Number of people who accessed Private Emergency Accommodation","Number of people who accessed Supported Temporary Accommodation","Number of people who accessed Temporary Emergency Accommodation","Number of people who accessed Other Accommodation",Number of people with citizenship Irish,Number of people with citizenship EEA/Uk,Number of people with citizenship Non-EEA,"Number of Families","Number of Adults in Families","Number of Single-Parent families","Number of Dependants in Families","month","quarter","year"
+Dublin,"5,173","3,352","1,821",943,"2,770","1,384",76,"3,030","2,178",37,0,"2,984","1,288",901,972,"1,654",487,"2,259","may",2,2022
+MidEast,410,262,148,75,194,122,19,248,154,4,4,274,80,56,77,137,34,158,"may",2,2022
+Midlands,105,52,53,18,63,21,3,67,0,38,0,90,9,6,26,32,20,46,"may",2,2022
+MidWest,359,218,141,40,199,110,10,93,227,39,0,293,41,25,71,94,55,135,"may",2,2022
+NorthEast,94,70,24,11,53,23,7,38,55,1,0,72,17,5,23,43,5,44,"may",2,2022
+NorthWest,76,50,26,8,43,23,2,32,32,12,0,62,12,2,10,13,7,16,"may",2,2022
+SouthEast,243,180,63,38,140,57,8,81,162,0,0,205,27,11,30,38,23,49,"may",2,2022
+SouthWest,547,379,168,56,304,172,15,350,199,0,0,415,68,64,72,105,45,131,"may",2,2022
+West,290,162,128,53,142,84,11,180,110,0,0,241,28,21,85,127,44,212,"may",2,2022

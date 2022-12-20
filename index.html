@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/button.js"></script>
+    <!-- <script src="https://d3js.org/d3.v5.js"></script> -->
+    <!-- <script src="https://unpkg.com/topojson@3"></script> -->
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+  </head>
+
+  <body>
+    <script src="constants.js"></script>
+    <script src="sketch.js"></script>
+    <div id="p5canvas"></div>
+    <div id="elCon">
+      <!-- <div id="electionLegend">
+    <h2>Results</h2>
+  </div> -->
+      <div id="mapCon">
+        <h3 id="mapTitle">Irish Adult Homelessness Choropleth - By Irish Statistical Region</span></h3>
+        <div id="mapMap"></div> 
+        <img src="chloropleth legend.png" width="80%">
+        <h3>Percentage of Adult Homeless in Region's Population</h3>
+      </div>
+      <div id="tooltipContainer">
+        <div id="countyGraphClose"></div>
+        <div id="regionTitle"></div>
+        <div id="donutChart"></div>
+        <div id="rentCompareDropdown"></div>
+        <div id="rentImage"></div>
+      </div>
+      <div id="otherGraphs">
+        <div id="stackedChartButton"></div>
+        <div id="stackedChart"></div>
+        <div class="flexTitle">
+          <h2>Homeless Population Pyramid (Census 2016)</h2>
+        </div>
+        <div class="pyramidHeader">
+          <img src="female.png" class="genderImage">
+          <h3>Age group<span style="opacity: 0">xxxxx</span></h3>
+          <img src="male.png" class="genderImage">
+        </div>
+        <div id="pyramid"></div>
+        <div class="pyramidHeader">
+          <h3>Homeless Population Count<span style="opacity: 0">xxxxx</span></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

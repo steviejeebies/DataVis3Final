@@ -1,0 +1,10 @@
+"Region","Total Adults","Male Adults","Female Adults","Adults Aged 18-24","Adults Aged 25-44","Adults Aged 45-64","Adults Aged 65+","Number of people who accessed Private Emergency Accommodation","Number of people who accessed Supported Temporary Accommodation","Number of people who accessed Temporary Emergency Accommodation","Number of people who accessed Other Accommodation","Number of Families","Number of Adults in Families","Number of Single-Parent families","Number of Dependants in Families","month","quarter","year"
+Dublin,"4,258","2,428","1,830",577,"2,586","1,018",77,"2,043","2,242",72,0,1221,1708,734,"2,706","january",1,2019
+MidEast,254,149,105,32,160,59,3,125,126,3,0,40,53,27,105,"january",1,2019
+Midlands,111,60,51,19,66,22,4,74,37,0,0,35,51,19,101,"january",1,2019
+MidWest,338,221,117,47,179,103,9,107,190,41,0,64,86,42,119,"january",1,2019
+NorthEast,162,97,65,22,90,41,9,99,62,1,0,25,33,17,55,"january",1,2019
+NorthWest,52,35,17,13,27,11,1,17,24,10,1,10,18,2,25,"january",1,2019
+SouthEast,316,212,104,65,167,76,8,108,194,2,12,30,41,19,51,"january",1,2019
+SouthWest,514,324,190,65,319,117,13,288,235,0,0,108,148,68,283,"january",1,2019
+West,358,218,140,53,199,95,11,216,136,0,6,81,121,41,179,"january",1,2019

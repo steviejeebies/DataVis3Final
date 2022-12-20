@@ -1,0 +1,285 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.svg-style-population-pyramid {
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin: auto;
+  overflow: visible;
+}
+.county {
+  stroke: #fff;
+  fill:#005DAA;
+} 
+
+.flexTitle {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pyramidHeader {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.genderImage {
+  max-height: 100%;
+  /* background-color: red; */
+}
+
+
+
+
+
+/* from other graph */
+
+.container {
+  width: inherit;
+  font-family: Arial, sans-serif;
+}
+
+#elCon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 1px solid #EEEEEE;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+#mapTitle {
+  white-space:normal !important;
+  width:500px !important;
+}
+
+#mapCon {
+  background-color: #FFFFFF;
+  border-left: 1px solid #EEEEEE;
+  width: 550px;
+}
+
+#mapMap {
+  overflow: hidden;
+  position: relative;
+  background-color: #FFFFFF;
+
+}
+
+/* #electionLegend {
+  width: 45%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  padding: 20px;
+  margin: 0;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+#electionLegend h2 {
+  margin: 0 0 0.5em 0;
+} */
+
+#tooltipContainer {
+  background-color: #FFFFFF;
+  width: 45%;
+  /* order: 1; 
+  margin-top: 300px; */
+}
+
+.borders {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-linejoin: round;
+  stroke-width: 0.1;
+}
+
+/* .f0 {
+  fill: #222222
+}
+
+.f1 {
+  fill: #DA1502
+}
+
+.f2 {
+  fill: #0382AB
+}
+
+.f3 {
+  fill: #F0DE4C
+}
+
+.f4 {
+  fill: #3C862D
+}
+
+.f5 {
+  fill: #FDB218
+}
+
+.f6 {
+  fill: #df1c41
+}
+
+.f7 {
+  fill: #7AB630
+}
+
+.f8 {
+  fill: #999999;
+}
+
+.f9 {
+  fill: #722889
+}
+
+.f10 {
+  fill: #FF9900
+}
+
+.f11 {
+  fill: gray;
+} */
+
+#tooltipContainer strong.f0 {
+  color: #222222
+}
+
+#tooltipContainer strong.f1 {
+  color: #DA1502
+}
+
+#tooltipContainer strong.f2 {
+  color: #0382AB
+}
+
+#tooltipContainer strong.f3 {
+  color: #C5B310;
+}
+
+#tooltipContainer strong.f4 {
+  color: #3C862D
+}
+
+#tooltipContainer strong.f5 {
+  color: #FDB218
+}
+
+#tooltipContainer strong.f6 {
+  color: #df1c41
+}
+
+#tooltipContainer strong.f7 {
+  color: #7AB630
+}
+
+#tooltipContainer strong.f8 {
+  color: #999999
+}
+
+#tooltipContainer strong.f9 {
+  color: #722889
+}
+
+#tooltipContainer strong.f10 {
+  color: #FF9900
+}
+
+#tooltipContainer strong.f11 {
+  color: gray
+}
+
+#tooltipContainer h2.f0 {
+  background: rgba(34, 34, 34, 0.5)
+}
+
+#tooltipContainer h2.f1 {
+  background: rgba(218, 21, 2, 0.5)
+}
+
+#tooltipContainer h2.f2 {
+  background: rgba(3, 130, 171, 0.5)
+}
+
+#tooltipContainer h2.f3 {
+  background: rgba(240, 222, 76, 0.5)
+}
+
+#tooltipContainer h2.f4 {
+  background: rgba(60, 134, 45, 0.5)
+}
+
+#tooltipContainer h2.f5 {
+  background: rgba(253, 178, 24, 0.5)
+}
+
+#tooltipContainer h2.f6 {
+  background: rgba(223, 28, 65, 0.5)
+}
+
+#tooltipContainer h2.f7 {
+  background: rgba(122, 182, 48, 0.5)
+}
+
+#tooltipContainer h2.f8 {
+  background: rgba(153, 153, 153, 0.5)
+}
+
+#tooltipContainer h2.f9 {
+  background: rgba(114, 40, 137, 0.5)
+}
+
+#tooltipContainer h2.f10 {
+  background: rgba(255, 153, 0, 0.5)
+}
+
+#tooltipContainer h2.f11 {
+  background: rgba(204, 204, 204, 0.5)
+}
+
+.lightbar {
+  fill: #BBBBBB;
+}
+
+.ward:hover {
+  opacity: 0.8;
+  stroke: #000;
+  stroke-width: 0.3;
+  stroke-linejoin: round;
+}
+
+.tooltip {
+  text-align: left;
+  padding: 0;
+  font: 16px sans-serif;
+  /* box-sizing: border-box; */
+}
+
+.tooltip img {
+  padding-top: 20px;
+}
+
+.tooltip p {
+  margin: 0;
+  padding: 5px 20px;
+}
+
+.tooltip h2 {
+  margin: 0px 0px 0.5em;
+  padding: 10px 20px;
+}
+
+.charty {
+  padding: 0 20px;
+}

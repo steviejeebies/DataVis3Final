@@ -1,0 +1,10 @@
+"Region","Total Adults","Male Adults","Female Adults","Adults Aged 18-24","Adults Aged 25-44","Adults Aged 45-64","Adults Aged 65+"+,"Number of people who accessed Private Emergency Accommodation","Number of people who accessed Supported Temporary Accommodation","Number of people who accessed Temporary Emergency Accommodation","Number of people who accessed Other Accommodation","Number of Families","Number of Adults in Families","Number of Dependants in Families","month","quarter","year"
+Dublin,"4,287","2,776","1,511",708,"2,374","1,141",64,"2,329","1,997",39,0,752,"1,268","1,806","september",3,2021
+MidEast,318,205,113,51,162,96,9,192,112,3,11,52,84,104,"september",3,2021
+Midlands,91,60,31,21,49,18,3,65,0,26,0,6,7,11,"september",3,2021
+MidWest,299,203,96,31,169,93,6,28,240,31,0,32,44,52,"september",3,2021
+NorthEast,75,59,16,5,44,21,5,12,54,8,1,9,11,20,"september",3,2021
+NorthWest,74,51,23,14,38,21,1,27,32,15,0,8,9,12,"september",3,2021
+SouthEast,193,137,56,29,110,48,6,53,140,0,0,18,24,39,"september",3,2021
+SouthWest,512,361,151,65,283,145,19,339,179,0,0,60,76,122,"september",3,2021
+West,282,166,116,65,128,74,15,160,122,0,0,68,104,178,"september",3,2021
