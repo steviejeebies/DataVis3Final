@@ -580,7 +580,7 @@ function stackedColumnChart() {
     cat2.texttemplate= '%{value:.01f}%'
     cat3.texttemplate= '%{value:.01f}%'
     layout = {
-      title: "Total Count + Family Composition of Homeless People, By Region (for the above month/year)",
+      title: "Family Composition of Homeless People, By Region (for the above month/year)",
       barmode: "stack",
       barnorm: "percent",
       yaxis: { title: "Percentage of Homeless Population" },
