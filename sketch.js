@@ -450,18 +450,6 @@ function donutChart() {
 
   let data = [
     {
-      values: homeless_data[sliderVal].rows.map((a) =>
-        parseNum(a.obj["Total Adults"])
-      ),
-      labels: regions,
-      domain: { column: 0 },
-      name: "",
-      texttemplate: "%{value} (%{percent})",
-      hole: 0.6,
-      type: "pie",
-      pull: pullArray,
-    },
-    {
       values: homeless_data[sliderVal].rows.map(
         (a) =>
           parseNum(a.obj["Total Adults"]) /
@@ -469,13 +457,25 @@ function donutChart() {
       ),
       labels: regions,
       textposition: "inside",
-      domain: { column: 1 },
+      domain: { column: 0 },
       name: "",
-      hoverinfo: "label+percent+name",
+      hovertemplate: "%{value:%} of %{label}'s Population are Homeless",
       hole: 0.6,
       type: "pie",
       pull: pullArray,
     },
+    {
+      values: homeless_data[sliderVal].rows.map((a) =>
+        parseNum(a.obj["Total Adults"])
+      ),
+      labels: regions,
+      domain: { column: 1 },
+      name: "",
+      texttemplate: "%{value} (%{percent})",
+      hole: 0.6,
+      type: "pie",
+      pull: pullArray,
+    }
   ];
 
   let { year, monthName } = getTimeSpanData()
@@ -489,7 +489,7 @@ function donutChart() {
         },
         showarrow: false,
         text: "Total (Adult)",
-        x: 0.12,
+        x: 0.91,
         y: 0.5,
       },
       {
@@ -498,7 +498,7 @@ function donutChart() {
         },
         showarrow: false,
         text: "Per Capita",
-        x: 0.86,
+        x: 0.14,
         y: 0.57,
       },
       {
@@ -507,7 +507,7 @@ function donutChart() {
         },
         showarrow: false,
         text: "(By region)",
-        x: 0.86,
+        x: 0.14,
         y: 0.46,
       },
     ],
