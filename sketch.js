@@ -426,7 +426,7 @@ function newMap() {
       
       currentCounty = d.properties.NAME_1;
       reg = county_data[currentCounty].region;
-      content = "<h2>" + reg + ' [' + region_data[reg].counties + "]</h2>";
+      content = "<h2><b>Region:</b> " + reg + ' [' + region_data[reg].counties + "] | <b>Selected County:</b> " + currentCounty + "</h2>";
       tooltip.html(content);
 
       document.getElementById(
@@ -551,6 +551,8 @@ function stackedColumnChart() {
       type: "bar",
     };
 
+  let { year, monthName } = getTimeSpanData()
+
   let graphData = [cat1, cat2, cat3];
   let layout;
   if (realValues) {
@@ -563,7 +565,7 @@ function stackedColumnChart() {
     );
 
     layout = {
-      title: "Total Count + Family Composition of Homeless People, By Region",
+      title: "Total Count + Family Composition of Homeless People, By Region (for the above month/year)",
       barmode: "stack",
       yaxis: {
         autorange: false,
@@ -578,7 +580,7 @@ function stackedColumnChart() {
     cat2.texttemplate= '%{value:.01f}%'
     cat3.texttemplate= '%{value:.01f}%'
     layout = {
-      title: "Colored Bar Chart",
+      title: "Total Count + Family Composition of Homeless People, By Region (for the above month/year)",
       barmode: "stack",
       barnorm: "percent",
       yaxis: { title: "Percentage of Homeless Population" },
